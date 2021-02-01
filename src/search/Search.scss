@@ -26,6 +26,17 @@
       font-weight: 600;
     }
 
+    .Search-copy-url {
+      width: 145px;
+      margin: 10px 50px;
+      background-color: #1b60db;
+      border: none;
+      color: white;
+      padding: 5px;
+      cursor: pointer;
+      font-size: 11px;
+    }
+
     @media screen and (max-width: 600px) {
       .title {
         display: none;
