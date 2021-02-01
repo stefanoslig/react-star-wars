@@ -11,6 +11,7 @@ function Characters() {
   let { filmId } = useParams<{ filmId: string }>();
   const [movie, setMovie] = useState<Movie | null>(null);
   const [characters, setCharacters] = useState<Character[]>([]);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
 
   useEffect(() => {
     const getMovie = async () => {
@@ -19,9 +20,11 @@ function Characters() {
       getCharacters(movie.characters);
     };
     const getCharacters = async (characterUrls: string[]) => {
+      setIsLoading(true);
       const characters = await fetchWrapper.getAll<Character[]>(
         splitCharactersUrls(characterUrls)
       );
+      setIsLoading(false);
       setCharacters(characters);
     };
 
@@ -31,7 +34,11 @@ function Characters() {
   }, [filmId]);
   return (
     <div>
-      <Header title={`Characters - ${movie && movie.title}`} />
+      <Header
+        title={`Characters - ${
+          isLoading ? 'Loading...' : movie && movie.title
+        }`}
+      />
       <ul>
         {characters &&
           characters.map((character) => (
