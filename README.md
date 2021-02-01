@@ -1,7 +1,5 @@
 # react-star-wars [![Build Status](https://travis-ci.com/stefanoslig/react-star-wars.svg?branch=main)](https://travis-ci.com/stefanoslig/react-star-wars)
 
-Demo: [stefanoslig.github.io/react-star-wars](https://stefanoslig.github.io/react-star-wars/)
-
 ## Project setup
 ```
 npm install
