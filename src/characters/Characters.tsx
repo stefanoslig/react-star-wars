@@ -36,7 +36,7 @@ function Characters() {
     <div>
       <Header
         title={`Characters - ${
-          isLoading ? 'Loading...' : movie && movie.title
+          isLoading ? 'Loading...' : movie ? movie.title : ''
         }`}
       />
       <ul>
