@@ -1,4 +1,4 @@
-# react-star-wars [![Build Status](https://travis-ci.org/stefanoslig/react-star-wars.svg?branch=main)](https://travis-ci.org/stefanoslig/react-star-wars)
+# react-star-wars [![Build Status](https://travis-ci.com/stefanoslig/react-star-wars.svg?branch=main)](https://travis-ci.com/stefanoslig/react-star-wars)
 
 Demo: [stefanoslig.github.io/react-star-wars](https://stefanoslig.github.io/react-star-wars/)
 
