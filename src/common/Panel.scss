@@ -1,0 +1,37 @@
+.Panel-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  height: 100%;
+  width: 100%;
+
+  &.active {
+    position: fixed;
+    z-index: 15000;
+    background-color: rgba(0, 0, 0, 0.3);
+    will-change: transform;
+
+    .Panel-glass {
+      width: 60vw;
+      height: 100vh;
+      left: 0;
+      position: relative;
+    }
+
+    .Panel {
+      width: 40vw;
+      height: 100vh;
+      right: 0;
+      position: inherit;
+      overflow: auto;
+      background-color: white;
+
+      .Panel-content {
+        height: 100%;
+        width: 100%;
+        pointer-events: all;
+      }
+    }
+  }
+}
