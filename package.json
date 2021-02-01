@@ -2,6 +2,7 @@
   "name": "react-star-wars",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://stefanoslig.github.io/react-star-wars/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
