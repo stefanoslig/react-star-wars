@@ -16,7 +16,7 @@ function ListItem({ movie }: ListItemProps) {
       </span>
       <Link
         className="ListItem-card-item"
-        to={`/search/${movie.episode_id}/people`}
+        to={`/search/${movie.url.split('/films/')[1]}people`}
       >
         Characters
       </Link>
