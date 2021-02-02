@@ -1,8 +1,8 @@
 # react-star-wars [![Build Status](https://travis-ci.com/stefanoslig/react-star-wars.svg?branch=main)](https://travis-ci.com/stefanoslig/react-star-wars)
 
-![Screenshot](search-films.png)
+![Screenshot](screenshots/search-films.png)
 
-![Screenshot](characters.png)
+![Screenshot](screenshots/characters.png)
 
 ## Project setup
 ```
